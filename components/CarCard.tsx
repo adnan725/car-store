@@ -23,8 +23,8 @@ const CarCard = ({ car } : CarCardProps) => {
 
   return (
     <div className='car-card group'>
-        <div className='car__card-content'>
-            <h1>
+        <div className='car-card__content'>
+            <h1 className='car-card__content-title'>
                 {make} {model}
             </h1>
         </div>
